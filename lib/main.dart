@@ -83,8 +83,14 @@ class HomePage extends StatelessWidget {
                 const SizedBox(height: 15),
 
                 const Text(
-                  'अपनी English Speaking को बेहतर बनाएं।\n'
-                  'Learn English step by step!',
+  'अपनी English Speaking को बेहतर बनाएं\nLearn English step by step!',
+  textAlign: TextAlign.center,
+  style: TextStyle(
+    fontSize: 17,
+    height: 1.6,
+    color: Colors.black87,
+  ),
+),
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 17,
